@@ -1,0 +1,4 @@
+eth_private_net/geth
+eth_private_net/keystore
+geth_err.log
+history

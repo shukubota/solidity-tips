@@ -18,3 +18,12 @@ geth --networkid "15" --nodiscover --datadir "eth_private_net"
 geth --datadir "eth_private_net" attach ipc:eth_private_net/geth.ipc
 ```
 でconsoleに入る
+
+## main netへの接続
+```
+$ geth --datadir "/root/geth-work/mainnet_data" 2>> /home/ubuntu/mainnet_data/e01.log &
+```
+
+```
+geth --datadir "mainnet_data" attach ipc:mainnet_data/geth.ipc
+```

@@ -8,3 +8,5 @@ services:
         target: /root/geth-work
     working_dir: /root/geth-work
     tty: true
+    ports:
+     - 3000:3000

@@ -23,6 +23,22 @@ geth --datadir "eth_private_net" attach ipc:eth_private_net/geth.ipc
 geth --networkid "15" --nodiscover --datadir "eth_private_net" --http --http.addr 0.0.0.0
 ```
 
+### mining
+geth consoleに入って
+```
+$ miner.start()
+```
+
+```
+ethash.getHashrate()
+```
+でhashrateの確認
+
+```
+eth.blockNumber
+```
+でblockNumberの確認
+
 ## main netへの接続
 ```
 $ geth --datadir "/root/geth-work/mainnet_data" 2>> /home/ubuntu/mainnet_data/e01.log &

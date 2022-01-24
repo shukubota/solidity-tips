@@ -19,6 +19,10 @@ geth --datadir "eth_private_net" attach ipc:eth_private_net/geth.ipc
 ```
 でconsoleに入る
 
+```
+geth --networkid "15" --nodiscover --datadir "eth_private_net" --http --http.addr 0.0.0.0
+```
+
 ## main netへの接続
 ```
 $ geth --datadir "/root/geth-work/mainnet_data" 2>> /home/ubuntu/mainnet_data/e01.log &
@@ -26,4 +30,9 @@ $ geth --datadir "/root/geth-work/mainnet_data" 2>> /home/ubuntu/mainnet_data/e0
 
 ```
 geth --datadir "mainnet_data" attach ipc:mainnet_data/geth.ipc
+```
+
+## dapp
+```
+meteor --allow-superuser
 ```

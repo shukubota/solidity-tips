@@ -1,0 +1,7 @@
+{
+  "name": "solidity-tips",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:shukubota/solidity-tips.git",
+  "license": "MIT"
+}

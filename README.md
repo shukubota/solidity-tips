@@ -24,6 +24,7 @@ geth --networkid "15" --nodiscover --datadir "eth_private_net" --http --http.add
 ```
 
 ### mining
+前提としてgeth initをして初期化していないとmining進みません
 geth consoleに入って
 ```
 $ miner.start()

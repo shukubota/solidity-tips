@@ -62,3 +62,11 @@ meteor --allow-superuser
 ```
 geth --networkid "15" --nodiscover --datadir "eth_private_net" --http --http.addr 0.0.0.0 --http.vhosts '*' --http.corsdomain '*' --allow-insecure-unlock
 ```
+
+
+## python
+### 準備
+```
+pip3 install web3
+```
+

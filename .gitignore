@@ -6,3 +6,4 @@ geth_err.log
 history
 mainnet_data
 node_modules/
+__pycache__

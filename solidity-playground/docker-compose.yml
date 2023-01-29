@@ -1,0 +1,9 @@
+version: '3'
+services:
+  solidity-playground:
+    build: .
+    working_dir: /root/solidity-playground
+    tty: true
+    ports:
+      - 3000:3000
+      - 8545:8545
